@@ -22,12 +22,19 @@
             background-color: var(--bg-dark);
             color: #f8fafc;
             overflow: hidden;
+            transition: background-color 0.5s ease;
         }
 
         .glass {
             background: rgba(15, 23, 42, 0.7);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .glass-light {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(99, 102, 241, 0.1);
         }
 
         .gradient-text {
@@ -63,6 +70,10 @@
         }
         .animate-pulse-soft {
             animation: pulse-soft 2s infinite;
+        }
+
+        .shadow-premium-light {
+            shadow: 0 10px 40px -10px rgba(99, 102, 241, 0.12);
         }
     </style>
 <script type="importmap">
