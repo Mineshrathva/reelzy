@@ -1,0 +1,8 @@
+{
+  "name": "Reelzy",
+  "description": "The ultimate AI-powered short-form video creation and discovery platform. Generate videos from text, create stunning thumbnails, and script your next viral hit with Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
